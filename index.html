@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .backgrounds {
+        background-image: url("https://cdn.zoomg.ir/2015/02/better-call-saul-tv-sefries-poster-wallpaper.jpg?w=768");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        filter: grayscale(40%);
+      }
+
+      .backgrounds:hover {
+        filter: grayscale(70%);
+      }
+
+      .backgrounds h1 {
+        width: 40%;
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container=fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary opacity-100">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/3/34/Jimmy_McGill_BCS_S3.png"
+              alt="logo"
+              class="logo rounded-circle"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#services">services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  saul's friends!
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)"
+                      >walter white</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://en.wikipedia.org/wiki/Jesse_Pinkman"
+                      >jesse pinkman</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://en.wikipedia.org/wiki/Mike_Ehrmantraut"
+                      >Mike Ehrmantraut</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://twitter.com/vrd_ali"
+                      >AliVRD :0</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="backgrounds">
+      <br /><br /><br />
+      <div class="container text-capitalize">
+        <h1 class="display-2 rounded">
+          <span class="bg-success text-warning roundead">be</span
+          ><span class="text-lowercase">tter call</span>
+          <span class="m-5"
+            ><span class="bg-success rounded text-warning">sa</span>ul</span
+          >
+        </h1>
+        <h4 class="h1 w-50">just call with me</h4>
+        <h5 class="text-dark display-4">i save you</h5>
+        <a
+          href="https://en.wikipedia.org/wiki/Saul_Goodman"
+          class="btn btn-primary"
+          >read about me</a
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="text-justify text-capitalize mt-1 bg-light p-3 text-dark border"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+        facere fuga, dolores iste explicabo consectetur deserunt est, quod nemo
+        placeat eos omnis eum nam unde maxime perferendis voluptates incidunt
+        quas culpa tenetur qui aliquam corporis voluptatum! Pariatur placeat
+        sunt reprehenderit aliquam? Fugiat earum, impedit doloribus asperiores
+        voluptatum recusandae? Harum unde commodi qui dolorem dolore veniam,
+        nulla repudiandae voluptas nostrum quas debitis labore excepturi
+        sapiente accusantium consequatur eaque est aperiam ullam quae iusto
+        cupiditate doloribus! Tempore vitae, hic harum quae beatae, voluptatibus
+        soluta illum asperiores voluptate provident perspiciatis saepe corporis!
+        Consectetur eligendi, vero aperiam cum possimus vel placeat incidunt
+        quod itaque.
+      </div>
+
+      <div
+        class="text-justify text-capitalize bg-white p-3 mt-1 rounded text-dark border"
+      >
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel beatae
+        placeat facere perspiciatis in reprehenderit odio possimus quaerat quasi
+        nostrum omnis accusantium necessitatibus, ducimus autem culpa nemo
+        cupiditate unde sit? Animi accusamus pariatur accusantium dignissimos
+        temporibus quos velit aliquam assumenda atque omnis! Iusto velit nostrum
+        qui quam cupiditate aliquam reiciendis corporis? Reprehenderit, ipsa ea!
+        Magni quasi perferendis sint laborum error tempora, velit voluptatum!
+        Libero natus at voluptas vero deserunt distinctio, sequi cumque aliquid
+        laudantium iusto? Impedit dolore dignissimos harum, atque dicta illum
+        eum aliquid necessitatibus voluptas, suscipit fuga ratione excepturi
+        quae? Deserunt autem minima odit possimus obcaecati necessitatibus
+        quidem vitae officiis, suscipit laborum natus quae veritatis quis
+        perferendis beatae eaque nostrum cumque nesciunt hic. Sapiente inventore
+        aliquam accusamus minima, soluta officiis dicta non quae maiores autem
+        quam odit et nesciunt, placeat fuga eligendi voluptatem tempora nobis
+        dolorum porro. Et perspiciatis facilis, minima voluptas totam velit
+        ratione veniam illum voluptatum, quisquam fuga, odit praesentium.
+        Dignissimos cupiditate quibusdam voluptate error voluptatem alias, animi
+        tenetur, cum officia ratione, minus eius dolores! Excepturi odio velit
+        voluptatem, possimus ipsum perspiciatis consequuntur, doloremque qui
+        dolores deserunt eos laboriosam facilis. Pariatur blanditiis hic quia
+        vero laborum mollitia laudantium doloribus ipsum impedit debitis veniam
+        corporis natus dolorum molestiae, ratione ipsa iusto nemo atque animi
+        harum rem voluptates cumque reprehenderit ut? Tempora fugiat laborum
+        reprehenderit quibusdam natus doloribus blanditiis ipsam officia optio
+        magni cupiditate beatae repellat, sint adipisci aliquid culpa reiciendis
+        officiis similique eaque dolorem delectus rerum. Vitae quidem, odit
+        aliquid excepturi corrupti hic harum. Ab fugit, reprehenderit autem
+        voluptas corrupti, maxime dolorem ullam laboriosam porro, omnis velit
+        error eos accusantium! Doloribus velit fugit expedita dignissimos. Velit
+        fuga nisi aliquam nostrum veniam doloremque eius doloribus optio
+        repellat, provident quos quae magni voluptatum exercitationem quis,
+        voluptatem necessitatibus cumque adipisci sed, facere aperiam saepe
+        amet. Voluptas aliquid doloribus facilis aspernatur aperiam cum possimus
+        eum adipisci enim porro, eius delectus fugiat quod ut molestias omnis
+        pariatur sapiente repellendus magni debitis voluptatem nostrum. Enim
+        similique dolor magnam quam tempore placeat perferendis. Recusandae quod
+        ex ducimus a unde exercitationem facilis minima non enim minus dolorem
+        suscipit, debitis praesentium placeat dolor. Harum, aliquam, iusto
+        veritatis maiores hic natus nihil ex officia eligendi voluptate
+        voluptatibus? Atque odio voluptatibus accusantium tenetur pariatur
+        assumenda culpa, vero sequi praesentium hic corporis ipsam tempore,
+        perspiciatis magni distinctio fugit omnis aperiam dignissimos accusamus
+        possimus? Vero neque aut ipsam quisquam quo id fugiat vel nam.
+        Perferendis, odio exercitationem sit sequi a provident dolorum neque,
+        illo delectus amet, soluta veniam. Quam eius nesciunt eligendi,
+        aspernatur adipisci quibusdam debitis illum. Quidem quis neque eum, sint
+        quas quo odio cum in at? Tempore error voluptate iste, cupiditate modi
+        autem! Eligendi, eveniet neque iure adipisci repudiandae sunt odit
+        expedita dolorum nemo perspiciatis eum porro animi voluptatibus,
+        veritatis soluta maiores! Esse error ab exercitationem saepe deserunt
+        sapiente, provident veritatis, qui quidem quia voluptate corporis
+        doloribus voluptas deleniti iste animi quisquam amet! Molestias iure
+        animi aspernatur. Recusandae accusamus quas labore repudiandae veritatis
+        laborum non corporis unde explicabo nihil, vitae ducimus magnam. Tempore
+        corrupti beatae dolorem dolore delectus possimus?
+      </div>
+      <div
+        class="text-justify text-capitalize mt-3 bg-light p-3 text-dark border"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, officia
+        numquam? Porro qui hic quaerat, aperiam neque consequuntur deleniti
+        saepe inventore velit illum quidem rem aut natus soluta et voluptatibus
+        placeat! Unde blanditiis mollitia et sunt, ab impedit quisquam quidem
+        laborum explicabo quae totam atque excepturi animi, ratione eos cum
+        ipsum temporibus illum vel nam deserunt laboriosam! Architecto harum
+        quos molestiae magnam reiciendis exercitationem, quam cum dicta
+        praesentium debitis ab aliquid placeat voluptate totam sint
+        necessitatibus neque voluptas, possimus maxime impedit molestias. Ad
+        quam hic quaerat vero amet nemo, aliquam necessitatibus pariatur
+        perspiciatis consequatur ut repudiandae officiis placeat odit tempora
+        iusto a quasi velit eligendi praesentium cupiditate unde eaque culpa
+        suscipit? Commodi repellendus ipsum voluptates ad dolorem. Doloribus
+        fuga repellendus amet, accusamus dicta voluptates, sunt, expedita alias
+        atque impedit unde pariatur. Eligendi omnis neque saepe cupiditate quod
+        voluptatibus modi veritatis, nostrum nisi laborum, iste quia porro
+        placeat, dolore vitae. Qui ea iure natus quibusdam explicabo est
+        consectetur, tempora illo sit minus rem, nam dolore necessitatibus,
+        laborum nemo harum incidunt maiores repellendus a inventore fugiat sunt
+        cupiditate dolores. Unde itaque laboriosam dignissimos consequuntur
+        consequatur temporibus molestiae illo culpa et dolor voluptatibus,
+        sapiente consectetur cumque voluptates velit accusamus voluptas, labore
+        facilis exercitationem minima, vel ipsa sunt dolores tempore. Dolorum
+        dolor necessitatibus ratione sequi voluptate enim quasi debitis
+        voluptatibus eum laborum? Modi, laudantium debitis quisquam eveniet odio
+        placeat maiores esse quod nobis explicabo voluptatem incidunt deserunt
+        quas voluptatum alias excepturi laboriosam reiciendis? Iusto non in quae
+        facilis dolorum ex hic nesciunt. Repellendus odio quia a iure sunt
+        aperiam, est perspiciatis eos. Sunt saepe harum iusto, rem voluptatem
+        ducimus fuga esse, commodi itaque est quam, ipsa necessitatibus aut
+        quasi quod iste aliquam eos nostrum? Accusamus natus dolores corrupti
+        cum saepe? Pariatur at numquam fugit quos aut sequi reiciendis sapiente
+        eligendi laboriosam veniam id voluptatem eos, culpa deserunt veritatis
+        quia consequatur consectetur ipsum illum aspernatur, ducimus dignissimos
+        soluta unde. Sit magnam iste esse impedit fuga ullam mollitia distinctio
+        nisi omnis officiis ex deleniti voluptatibus, qui cum labore molestiae
+        voluptates itaque inventore aliquam? Mollitia saepe ut ducimus sed qui
+        nihil necessitatibus quo dicta sapiente omnis tempora laudantium
+        voluptatem praesentium, possimus totam ipsum quia dolores! Mollitia
+        maxime dicta, quas, beatae quidem aut autem tenetur veniam odit omnis
+        nihil eligendi, molestias odio. Consequuntur temporibus ex sed veniam,
+        inventore totam eum ducimus necessitatibus odit quod cupiditate.
+        Exercitationem pariatur officiis perferendis tempore nemo, eos deserunt
+        illum temporibus sed, explicabo eligendi.
+      </div>
+    </div>
+
+    <div
+      class="d-flex justify-content-around bg-primary p-4 mt-5 flex-wrap border"
+      id="services"
+    >
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="https://watermark.lovepik.com/photo/20211203/large/lovepik-happy-man-calling-picture_501479648.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body mt-5">
+          <h5 class="card-title">Divorce services</h5>
+          <p class="card-text">
+            You will receive your right in the shortest possible time
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          style="height: 430px"
+          src="https://niksho.com/image/2021/02/22bc5386f4889743c90d77ed75faf427.jpg"
+          alt="money heist"
+        />
+        <div class="card-body mt-4">
+          <h5 class="card-title">Definite escape from execution</h5>
+          <p class="card-text">do you want to survive? Better call Saul</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top"
+          style="height: 430px"
+          src="https://drjavadiclinic.com/wp-content/uploads/2022/03/cancer-due-to-drug-use.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body mt-4">
+          <h5 class="card-title">Drug service</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="text-justify text-capitalize mt-1 bg-light p-3 text-dark border"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+        facere fuga, dolores iste explicabo consectetur deserunt est, quod nemo
+        placeat eos omnis eum nam unde maxime perferendis voluptates incidunt
+        quas culpa tenetur qui aliquam corporis voluptatum! Pariatur placeat
+        sunt reprehenderit aliquam? Fugiat earum, impedit doloribus asperiores
+        voluptatum recusandae? Harum unde commodi qui dolorem dolore veniam,
+        nulla repudiandae voluptas nostrum quas debitis labore excepturi
+        sapiente accusantium consequatur eaque est aperiam ullam quae iusto
+        cupiditate doloribus! Tempore vitae, hic harum quae beatae, voluptatibus
+        soluta illum asperiores voluptate provident perspiciatis saepe corporis!
+        Consectetur eligendi, vero aperiam cum possimus vel placeat incidunt
+        quod itaque.
+      </div>
+
+      <div
+        class="text-justify text-capitalize bg-white p-3 mt-1 rounded text-dark border"
+      >
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel beatae
+        placeat facere perspiciatis in reprehenderit odio possimus quaerat quasi
+        nostrum omnis accusantium necessitatibus, ducimus autem culpa nemo
+        cupiditate unde sit? Animi accusamus pariatur accusantium dignissimos
+        temporibus quos velit aliquam assumenda atque omnis! Iusto velit nostrum
+        qui quam cupiditate aliquam reiciendis corporis? Reprehenderit, ipsa ea!
+        Magni quasi perferendis sint laborum error tempora, velit voluptatum!
+        Libero natus at voluptas vero deserunt distinctio, sequi cumque aliquid
+        laudantium iusto? Impedit dolore dignissimos harum, atque dicta illum
+        eum aliquid necessitatibus voluptas, suscipit fuga ratione excepturi
+        quae? Deserunt autem minima odit possimus obcaecati necessitatibus
+        quidem vitae officiis, suscipit laborum natus quae veritatis quis
+        perferendis beatae eaque nostrum cumque nesciunt hic. Sapiente inventore
+        aliquam accusamus minima, soluta officiis dicta non quae maiores autem
+        quam odit et nesciunt, placeat fuga eligendi voluptatem tempora nobis
+        dolorum porro. Et perspiciatis facilis, minima voluptas totam velit
+        ratione veniam illum voluptatum, quisquam fuga, odit praesentium.
+        Dignissimos cupiditate quibusdam voluptate error voluptatem alias, animi
+        tenetur, cum officia ratione, minus eius dolores! Excepturi odio velit
+        voluptatem, possimus ipsum perspiciatis consequuntur, doloremque qui
+        dolores deserunt eos laboriosam facilis. Pariatur blanditiis hic quia
+        vero laborum mollitia laudantium doloribus ipsum impedit debitis veniam
+        corporis natus dolorum molestiae, ratione ipsa iusto nemo atque animi
+        harum rem voluptates cumque reprehenderit ut? Tempora fugiat laborum
+        reprehenderit quibusdam natus doloribus blanditiis ipsam officia optio
+        magni cupiditate beatae repellat, sint adipisci aliquid culpa reiciendis
+        officiis similique eaque dolorem delectus rerum. Vitae quidem, odit
+        aliquid excepturi corrupti hic harum. Ab fugit, reprehenderit autem
+        voluptas corrupti, maxime dolorem ullam laboriosam porro, omnis velit
+        error eos accusantium! Doloribus velit fugit expedita dignissimos. Velit
+        fuga nisi aliquam nostrum veniam doloremque eius doloribus optio
+        repellat, provident quos quae magni voluptatum exercitationem quis,
+        voluptatem necessitatibus cumque adipisci sed, facere aperiam saepe
+        amet. Voluptas aliquid doloribus facilis aspernatur aperiam cum possimus
+        eum adipisci enim porro, eius delectus fugiat quod ut molestias omnis
+        pariatur sapiente repellendus magni debitis voluptatem nostrum. Enim
+        similique dolor magnam quam tempore placeat perferendis. Recusandae quod
+        ex ducimus a unde exercitationem facilis minima non enim minus dolorem
+        suscipit, debitis praesentium placeat dolor. Harum, aliquam, iusto
+        veritatis maiores hic natus nihil ex officia eligendi voluptate
+        voluptatibus? Atque odio voluptatibus accusantium tenetur pariatur
+        assumenda culpa, vero sequi praesentium hic corporis ipsam tempore,
+        perspiciatis magni distinctio fugit omnis aperiam dignissimos accusamus
+        possimus? Vero neque aut ipsam quisquam quo id fugiat vel nam.
+        Perferendis, odio exercitationem sit sequi a provident dolorum neque,
+        illo delectus amet, soluta veniam. Quam eius nesciunt eligendi,
+        aspernatur adipisci quibusdam debitis illum. Quidem quis neque eum, sint
+        quas quo odio cum in at? Tempore error voluptate iste, cupiditate modi
+        autem! Eligendi, eveniet neque iure adipisci repudiandae sunt odit
+        expedita dolorum nemo perspiciatis eum porro animi voluptatibus,
+        veritatis soluta maiores! Esse error ab exercitationem saepe deserunt
+        sapiente, provident veritatis, qui quidem quia voluptate corporis
+        doloribus voluptas deleniti iste animi quisquam amet! Molestias iure
+        animi aspernatur. Recusandae accusamus quas labore repudiandae veritatis
+        laborum non corporis unde explicabo nihil, vitae ducimus magnam. Tempore
+        corrupti beatae dolorem dolore delectus possimus?
+      </div>
+      <div
+        class="text-justify text-capitalize mt-3 bg-light p-3 text-dark border"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, officia
+        numquam? Porro qui hic quaerat, aperiam neque consequuntur deleniti
+        saepe inventore velit illum quidem rem aut natus soluta et voluptatibus
+        placeat! Unde blanditiis mollitia et sunt, ab impedit quisquam quidem
+        laborum explicabo quae totam atque excepturi animi, ratione eos cum
+        ipsum temporibus illum vel nam deserunt laboriosam! Architecto harum
+        quos molestiae magnam reiciendis exercitationem, quam cum dicta
+        praesentium debitis ab aliquid placeat voluptate totam sint
+        necessitatibus neque voluptas, possimus maxime impedit molestias. Ad
+        quam hic quaerat vero amet nemo, aliquam necessitatibus pariatur
+        perspiciatis consequatur ut repudiandae officiis placeat odit tempora
+        iusto a quasi velit eligendi praesentium cupiditate unde eaque culpa
+        suscipit? Commodi repellendus ipsum voluptates ad dolorem. Doloribus
+        fuga repellendus amet, accusamus dicta voluptates, sunt, expedita alias
+        atque impedit unde pariatur. Eligendi omnis neque saepe cupiditate quod
+        voluptatibus modi veritatis, nostrum nisi laborum, iste quia porro
+        placeat, dolore vitae. Qui ea iure natus quibusdam explicabo est
+        consectetur, tempora illo sit minus rem, nam dolore necessitatibus,
+        laborum nemo harum incidunt maiores repellendus a inventore fugiat sunt
+        cupiditate dolores. Unde itaque laboriosam dignissimos consequuntur
+        consequatur temporibus molestiae illo culpa et dolor voluptatibus,
+        sapiente consectetur cumque voluptates velit accusamus voluptas, labore
+        facilis exercitationem minima, vel ipsa sunt dolores tempore. Dolorum
+        dolor necessitatibus ratione sequi voluptate enim quasi debitis
+        voluptatibus eum laborum? Modi, laudantium debitis quisquam eveniet odio
+        placeat maiores esse quod nobis explicabo voluptatem incidunt deserunt
+        quas voluptatum alias excepturi laboriosam reiciendis? Iusto non in quae
+        facilis dolorum ex hic nesciunt. Repellendus odio quia a iure sunt
+        aperiam, est perspiciatis eos. Sunt saepe harum iusto, rem voluptatem
+        ducimus fuga esse, commodi itaque est quam, ipsa necessitatibus aut
+        quasi quod iste aliquam eos nostrum? Accusamus natus dolores corrupti
+        cum saepe? Pariatur at numquam fugit quos aut sequi reiciendis sapiente
+        eligendi laboriosam veniam id voluptatem eos, culpa deserunt veritatis
+        quia consequatur consectetur ipsum illum aspernatur, ducimus dignissimos
+        soluta unde. Sit magnam iste esse impedit fuga ullam mollitia distinctio
+        nisi omnis officiis ex deleniti voluptatibus, qui cum labore molestiae
+        voluptates itaque inventore aliquam? Mollitia saepe ut ducimus sed qui
+        nihil necessitatibus quo dicta sapiente omnis tempora laudantium
+        voluptatem praesentium, possimus totam ipsum quia dolores! Mollitia
+        maxime dicta, quas, beatae quidem aut autem tenetur veniam odit omnis
+        nihil eligendi, molestias odio. Consequuntur temporibus ex sed veniam,
+        inventore totam eum ducimus necessitatibus odit quod cupiditate.
+        Exercitationem pariatur officiis perferendis tempore nemo, eos deserunt
+        illum temporibus sed, explicabo eligendi.
+      </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+      <div
+        class="text-center p-3 bg-secondary"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2020 Copyright:
+        <a class="text-dark" href="#">Sual Goodman</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
